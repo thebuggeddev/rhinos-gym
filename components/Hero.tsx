@@ -16,6 +16,12 @@ const Hero: React.FC = () => {
             ease: "power4.out",
             delay: 0.2
         });
+        gsap.to(".hero-icon-reveal", {
+            y: 0,
+            duration: 1.5,
+            ease: "power4.out",
+            delay: 0.25
+        });
         
         // Eyebrow Animation
         gsap.from(".eyebrow-line", {
@@ -93,8 +99,10 @@ const Hero: React.FC = () => {
                     <div className="relative flex flex-nowrap items-center gap-2 md:gap-8 md:pr-28">
                         {splitText("Improve Your")}
                         {/* Arm Icon */}
-                        <div className="hero-text-reveal absolute right-32 top-10 border-[2px] md:border-[3px] border-dashed border-rhino-orange rounded-[1.5rem] md:rounded-[2rem] w-12 h-12 md:w-24 md:h-24 flex items-center justify-center transform rotate-6 bg-transparent">
-                            <span className="text-2xl md:text-5xl pb-1">💪</span>
+                        <div className="absolute right-32 top-10 w-12 h-12 md:w-24 md:h-24 overflow-hidden">
+                            <div className="hero-icon-reveal border-[2px] md:border-[3px] border-dashed border-rhino-orange rounded-[1.5rem] md:rounded-[2rem] w-full h-full flex items-center justify-center translate-y-[110%] will-change-transform transform rotate-6 bg-transparent">
+                                <span className="text-2xl md:text-5xl pb-1">💪</span>
+                            </div>
                         </div>
                     </div>
                     
