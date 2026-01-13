@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
 
   return (
     <footer ref={sectionRef} className="bg-rhino-dark text-white pt-10 pb-12 px-4 md:px-8 relative overflow-hidden">
-      <div className="max-w-[1340px] mx-auto">
+      <div className="max-w-[1440px] mx-auto">
         
         {/* Top Section: CTA + Arrow */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-16">

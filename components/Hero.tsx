@@ -69,7 +69,7 @@ const Hero: React.FC = () => {
 
   return (
     <div ref={containerRef} className="bg-rhino-dark w-full flex justify-center pt-4 px-4 pb-12">
-      <div className="bg-[#F4F4F4] w-full max-w-[1340px] rounded-[3rem] p-6 md:p-12 relative overflow-hidden flex flex-col shadow-2xl min-h-[85vh]">
+      <div className="bg-[#F4F4F4] w-full max-w-[1440px] rounded-[3rem] p-6 md:p-12 relative overflow-hidden flex flex-col shadow-2xl min-h-[85vh]">
         
         {/* Eyebrow Section */}
         <div className="mb-8 md:mb-10 mt-2">
@@ -85,15 +85,15 @@ const Hero: React.FC = () => {
         <div className="flex flex-col lg:flex-row justify-between relative mb-16">
             
             {/* Left: Typography Block */}
-            <div ref={textRef} className="relative z-10 w-full max-w-[900px]">
+            <div ref={textRef} className="relative z-10 w-full md:max-w-7xl">
                 {/* Responsive Font Size Calculation */}
                 <h1 className="font-condensed font-bold text-[14vw] md:text-[7.5rem] lg:text-[8.5rem] leading-[0.95] md:leading-[1.05] uppercase tracking-[-0.02em] text-black flex flex-col">
                     
                     {/* Line 1: IMPROVE YOUR + Icon */}
-                    <div className="flex flex-wrap items-center gap-2 md:gap-8">
+                    <div className="relative flex flex-nowrap items-center gap-2 md:gap-8 md:pr-28">
                         {splitText("Improve Your")}
                         {/* Arm Icon */}
-                        <div className="hero-text-reveal translate-y-[110%] inline-block border-[2px] md:border-[3px] border-dashed border-rhino-orange rounded-[1.5rem] md:rounded-[2rem] w-12 h-12 md:w-24 md:h-24 flex items-center justify-center transform rotate-6 bg-transparent mt-1 md:mt-2">
+                        <div className="hero-text-reveal absolute right-32 top-10 border-[2px] md:border-[3px] border-dashed border-rhino-orange rounded-[1.5rem] md:rounded-[2rem] w-12 h-12 md:w-24 md:h-24 flex items-center justify-center transform rotate-6 bg-transparent">
                             <span className="text-2xl md:text-5xl pb-1">💪</span>
                         </div>
                     </div>

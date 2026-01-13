@@ -4,7 +4,7 @@ import { Menu } from 'lucide-react';
 const Navbar: React.FC = () => {
   return (
     <div className="w-full flex justify-center pt-6 px-4 bg-rhino-dark">
-      <nav className="bg-[#F4F4F4] w-full max-w-[1340px] rounded-full px-8 md:px-12 py-5 flex items-center justify-between relative z-50">
+      <nav className="bg-[#F4F4F4] w-full max-w-[1440px] rounded-full px-8 md:px-12 py-5 flex items-center justify-between relative z-50">
         <div className="flex items-center">
           <span className="font-condensed font-bold text-3xl md:text-4xl tracking-tighter uppercase text-black">RHINOS GYM</span>
         </div>

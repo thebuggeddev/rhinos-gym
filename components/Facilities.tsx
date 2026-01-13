@@ -64,7 +64,7 @@ const Facilities: React.FC = () => {
 
   return (
     <section ref={sectionRef} className="pt-32 pb-20 bg-rhino-dark px-4 md:px-8">
-      <div className="max-w-[1340px] mx-auto">
+      <div className="max-w-[1440px] mx-auto">
         
         {/* Header Section */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-24 relative">

@@ -188,7 +188,7 @@ const Classes: React.FC = () => {
 
   return (
     <section ref={sectionRef} className="py-20 bg-rhino-dark px-4 md:px-8">
-      <div className="max-w-[1200px] mx-auto text-center mb-12">
+      <div className="max-w-[1440px] mx-auto text-center mb-12">
          <h2 className="font-condensed font-bold text-white text-5xl md:text-6xl uppercase leading-none mb-8">
             {splitText("Our Fitness Class")}
         </h2>
@@ -222,7 +222,7 @@ const Classes: React.FC = () => {
         </div>
       </div>
 
-      <div className="max-w-[1200px] mx-auto">
+      <div className="max-w-[1440px] mx-auto">
           {/* Card Container - Fixed min-height to prevent layout jumps */}
           <div ref={containerRef} className="bg-[#1A1A1A] rounded-[3rem] overflow-hidden flex flex-col md:flex-row h-auto md:h-[500px] relative shadow-2xl">
               
